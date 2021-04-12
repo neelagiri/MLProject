@@ -1,0 +1,59 @@
+Tree - Images - Training Model Values
+
+ Found 50 images belonging to 1 classes.
+1/1 [==============================] - 1s 763ms/step - loss: 0.8334 - accuracy: 0.0200 - mse: 0.3193
+
+1/1 [==============================] - 1s 800ms/step - loss: 0.6436 - accuracy: 0.9000 - mse: 0.2253
+
+1/1 [==============================] - 1s 782ms/step - loss: 0.6911 - accuracy: 0.5200 - mse: 0.2490
+
+1/1 [==============================] - 1s 774ms/step - loss: 0.6836 - accuracy: 0.6400 - mse: 0.2452
+
+1/1 [==============================] - 1s 770ms/step - loss: 0.7487 - accuracy: 0.2200 - mse: 0.2776
+
+MSE Final -> 
+
+SD -> 
+
+
+
+Mythical - Images - Training Model Values
+
+ Found 36 images belonging to 1 classes.
+1/1 [==============================] - 1s 836ms/step - loss: 0.6907 - accuracy: 0.4595 - mse: 0.2488
+
+1/1 [==============================] - 1s 760ms/step - loss: 0.7626 - accuracy: 0.1081 - mse: 0.2845
+
+1/1 [==============================] - 1s 765ms/step - loss: 0.7362 - accuracy: 0.1081 - mse: 0.2714
+
+1/1 [==============================] - 1s 906ms/step - loss: 0.6446 - accuracy: 0.8378 - mse: 0.2259
+
+1/1 [==============================] - 1s 760ms/step - loss: 0.7064 - accuracy: 0.4865 - mse: 0.2566
+
+MSE Final -> 
+
+SD -> 
+
+
+Animals - Images - Training Model Values
+
+Found 75 images belonging to 1 classes.
+
+1/1 [==============================] - 1s 905ms/step - loss: 0.7414 - accuracy: 0.0533 - mse: 0.2741
+
+1/1 [==============================] - 1s 918ms/step - loss: 0.6515 - accuracy: 0.8667 - mse: 0.2293
+
+1/1 [==============================] - 1s 901ms/step - loss: 0.7219 - accuracy: 0.3333 - mse: 0.2643
+
+1/1 [==============================] - 1s 929ms/step - loss: 0.6942 - accuracy: 0.5067 - mse: 0.2505
+
+1/1 [==============================] - 1s 914ms/step - loss: 0.7055 - accuracy: 0.4000 - mse: 0.2562
+
+MSE Final -> 
+
+SD -> 
+
+
+
+
+
