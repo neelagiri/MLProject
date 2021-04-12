@@ -34,7 +34,7 @@ epochs = 5
 nb_train_samples = 74
 # training and testing mythical dataframe of images that were converted from python
 
-dataframe_mythical_train <- "/Users/chayan/Desktop/Project/Final Data sheets/Mythical/Images/exportImage__Train_DF.csv"
+dataframe_mythical_train <- "/Users/vamsi/Desktop/Project/Final Data sheets/Mythical/Images/exportImage__Train_DF.csv"
 dataframe_mythical_train_read <- read.csv(datafram_mythical_train)
 
 # creating a training generator
@@ -91,7 +91,7 @@ history <- model %>% fit_generator(
 
 # our model is ready based on the training data set above , now we will create a test generator to test our final results
 
-dataframe_mythical_test <- "/Users/chayan/Desktop/Project/Final Data sheets/Mythical/Images/exportImage_Mythical_Test_DF.csv"
+dataframe_mythical_test <- "/Users/vamsi/Desktop/Project/Final Data sheets/Mythical/Images/exportImage_Mythical_Test_DF.csv"
 dataframe_mythical_test_read <- read.csv(dataframe_mythical_test)
 
 test_datagen <- image_data_generator(rescale = 1/255)
