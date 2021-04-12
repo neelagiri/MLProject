@@ -34,7 +34,7 @@ epochs = 5
 nb_train_samples = 74
 # training and testing animal dataframe of images that were converted from python
 
-datafram_animal_train <- "/Users/chayan/Desktop/Project/Final Data sheets/Animals/Images/exportImage_Animal_Train_DF.csv"
+datafram_animal_train <- "/Users/vamsi/Desktop/Project/Final Data sheets/Animals/Images/exportImage_Animal_Train_DF.csv"
 datafram_animal_train_read <- read.csv(datafram_animal_train)
 
 # creating a training generator
@@ -91,7 +91,7 @@ history <- model %>% fit_generator(
 
 # our model is ready based on the training data set above , now we will create a test generator to test our final results
 
-datafram_animal_test <- "/Users/chayan/Desktop/Project/Final Data sheets/Animals/Images/exportImage_Animal_Test_DF.csv"
+datafram_animal_test <- "/Users/vamsi/Desktop/Project/Final Data sheets/Animals/Images/exportImage_Animal_Test_DF.csv"
 datafram_animal_test_read <- read.csv(datafram_animal_test)
 
 test_datagen <- image_data_generator(rescale = 1/255)
